@@ -60,7 +60,7 @@ public class Szamitogep {
     @Override
     public String toString() {
         //String s = isOn ? "GG":"HH";
-        return "\n Kapcsoló állapota: " + (isOn ? "KI":"BE") + "\n Szabad memória: " + freeMemInMB + "\n";
+        return "\n Kapcsoló állapota: " + (isOn ? "BE":"KI") + "\n Szabad memória: " + freeMemInMB + "\n";
     }
     
     
