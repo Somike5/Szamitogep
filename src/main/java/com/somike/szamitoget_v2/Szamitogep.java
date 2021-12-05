@@ -45,7 +45,7 @@ public class Szamitogep {
     
     @Override
     public String toString() {
-        return "\n"+pcName+":\n Kapcsoló állapota: " + (isOn ? "KI":"BE") + "\n Szabad memória: " + freeMemInMB;
+        return "\n"+pcName+":\n Kapcsoló állapota: " + (isOn ? "BE":"KI") + "\n Szabad memória: " + freeMemInMB;
     }
     
 }
